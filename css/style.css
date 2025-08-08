@@ -142,6 +142,21 @@ body::before {
   20%, 24%, 55% { opacity: 0.8; }
 }
 
+/* === LOGO STYLING FIX === */
+.desktop-logo,
+.mobile-logo {
+  height: 50px;
+  width: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  flex-shrink: 0;
+  display: block;
+}
+
 /* === NAVBAR === */
 .navbar {
   position: relative;
