@@ -46,18 +46,17 @@ main {
 
 .glass-box {
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
+  border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  padding: 20px;
+  padding: 30px;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 650px;
   color: #fff;
-  width: 250px;
-  height: 200px;
   box-sizing: border-box;
-  display: inline-block;
-  vertical-align: top;
 }
 
 .glass-box h2 {
@@ -80,6 +79,7 @@ main {
 .glass-box a:hover {
   text-decoration: underline;
 }
+
 
 
 
