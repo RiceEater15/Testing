@@ -69,7 +69,17 @@ main {
   font-size: 1rem;
   line-height: 1.5;
   color: #d0d0ff;
+  margin: 0 0 18px;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0.2px;
 }
+
+.glass-box .muted {
+  color: rgba(200,220,240,0.55);
+  font-size: 0.85rem;
+  margin-top: 6px;
+}
+
 
 .glass-box a {
   color: #80d0ff;
